@@ -1,0 +1,236 @@
+﻿body {
+    background-image: URL(../images/nwwalp.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: white;
+}
+
+.couleur {
+    text-align: center;
+    font-size: 40px;
+    border: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bordure {
+    border: 3px solid white;
+}
+
+.espace {
+    gap: 2px;
+}
+
+a:hover {
+    text-decoration: none;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.display {
+    display: flex;
+}
+
+.parent {
+    width: 300px;
+    height: auto;
+    overflow: auto;
+    position: static;
+}
+
+.enfant {
+    overflow: inherit;
+    width: 30%;
+    height: 30%;
+}
+
+.boitecote {
+    height: 400px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-buttons {
+    display: flex;
+}
+
+    .header-buttons a {
+        margin-left: 10px;
+        padding: 10px 20px;
+        border: 1px solid #000;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+    }
+
+.opacitee {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.textcolor {
+    color: white;
+}
+
+.medium-table {
+    width: 70%;
+    margin: auto;
+}
+
+    .medium-table th, .medium-table td {
+        color: white;
+    }
+
+    .medium-table img {
+        width: 75px;
+        height: auto;
+    }
+
+.carousel-item img {
+    width: 85%;
+    height: 85%;
+    height: auto;
+    margin: auto;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.textdeco {
+    text-decoration: none;
+}
+
+.couleurtable {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.large-table th, .large-table td {
+    background-color: rgba(0, 0, 0, 0.5); /* White background with 80% opacity */
+    color: white; /* Text color */
+}
+
+.btn-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+    .btn-link:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+
+.no-underline {
+    text-decoration: none;
+    color: inherit;
+}
+
+    .no-underline:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+
+.smaller {
+    width: 20px;
+    height: auto;
+}
+
+h1 {
+    color: white;
+}
+
+.rouge {
+    color: red;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: white;
+}
+
+@media (min-width: 768px) {
+
+    .bordure:hover {
+        background-color: rgba(255, 255, 255, 0.1); /* Change background color on hover */
+        transform: scale(1.05); /* Slightly enlarge the block */
+        transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+    }
+}
+
+.table-container {
+    margin-top: 20px;
+}
+
+.large-table th, .large-table td {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding: 40px;
+}
+
+.large-table th {
+    font-weight: bold;
+}
+
+.large-table img {
+    width: 75px;
+    height: auto;
+}
+
+.smaller {
+    width: 20px;
+    height: auto;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+    .btn-link:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+
+.special {
+    color: #000;
+}
+
+.relative-position {
+    position: relative;
+}
+
+.fixed-position {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.relative-position {
+    position: relative;
+}
+
+.absolute-position {
+    position: absolute;
+}
+
+.fixed-position {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.table tbody tr:nth-child(odd) {
+    background-color: black;
+    color: white;
+}

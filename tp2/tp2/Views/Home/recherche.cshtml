@@ -1,0 +1,134 @@
+﻿@{
+    ViewData["Title"] = "Recherche";
+    Layout = "~/Views/Shared/Gabari.cshtml";
+}
+
+<h2 class="text-center my-4">Recherche de Combattants UFC</h2>
+
+<div class="container">
+    <div class="row justify-content-between">
+
+        <div class="col-12 col-md-8 bordure mb-4">
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <a href="detail.html" class="no-underline">
+                        <img src="images/stricland.jpg" class="img-fluid bordure opacitee" alt="Sean Strickland">
+                        <p>Sean<br>Strickland</p>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <a href="detail.html" class="no-underline">
+                        <img src="images/alexprc.jpg" class="img-fluid bordure opacitee" alt="Alex Pereira">
+                        <p>Alex<br>Pereira</p>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <a href="detail.html" class="no-underline">
+                        <img src="images/IA.jpg" class="img-fluid bordure opacitee" alt="Israel Adesanya">
+                        <p>Israel<br>Adesanya</p>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <a href="detail.html" class="no-underline">
+                        <img src="images/conor.jpg" class="img-fluid bordure opacitee" alt="Conor McGregor">
+                        <p>Conor<br>McGregor</p>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <a href="detail.html" class="no-underline">
+                        <img src="images/DC.jpg" class="img-fluid bordure opacitee" alt="Daniel Cormier">
+                        <p>Daniel<br>Cormier</p>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <a href="detail.html" class="no-underline">
+                        <img src="images/paulocosta.jpg" class="img-fluid bordure opacitee" alt="Paulo Costa">
+                        <p>Paulo<br>Costa</p>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <a href="detail.html" class="no-underline">
+                        <img src="images/topuriach.jpg" class="img-fluid bordure opacitee" alt="Ilia Topuria">
+                        <p>Ilia<br>Topuria</p>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <a href="detail.html" class="no-underline">
+                        <img src="images/volk.jpg" class="img-fluid bordure opacitee" alt="Alexander Volkanovski">
+                        <p>Alexander<br>Volkanovski</p>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <a href="detail.html" class="no-underline">
+                        <img src="images/Aspinall.jpg" class="img-fluid bordure opacitee" alt="Tom Aspinall">
+                        <p>Tom<br>Aspinall</p>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <a href="detail.html" class="no-underline">
+                        <img src="images/max.jpg" class="img-fluid bordure opacitee" alt="Max Holloway">
+                        <p>Max<br>Holloway</p>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <a href="detail.html" class="no-underline">
+                        <img src="images/thediamond.jpg" class="img-fluid bordure opacitee" alt="Dustin Poirier">
+                        <p>Dustin<br>Poirier</p>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <a href="detail.html" class="no-underline">
+                        <img src="images/aldo.jpg" class="img-fluid bordure opacitee" alt="Jose Aldo">
+                        <p>Jose<br>Aldo</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulaire de recherche -->
+        <div class="col-12 col-md-3 bordure boitecote opacitee mb-4">
+            <form method="GET" asp-controller="Recherche" asp-action="Index">
+                <div class="form-group textcolor">
+                    <label for="search">Recherche</label>
+                    <input type="text" class="form-control" id="search" name="search" placeholder="Entrez un nom">
+                </div>
+                <div class="form-group textcolor">
+                    <label for="category">Champion ?</label>
+                    <select class="form-control" id="category" name="category">
+                        <option value="peuimporte">Peu importe</option>
+                        <option value="oui">Oui</option>
+                        <option value="non">Non</option>
+                    </select>
+                </div>
+                <div class="form-group textcolor">
+                    <label for="min">Min</label>
+                    <input type="number" min="1" max="15" class="form-control" id="min" name="min" placeholder="Min">
+                </div>
+                <div class="form-group textcolor">
+                    <label for="max">Max</label>
+                    <input type="number" min="1" max="15" class="form-control" id="max" name="max" placeholder="Max">
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox2" name="featherweight">
+                    <label class="form-check-label textcolor" for="checkbox2">Poids plume</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox3" name="middleweight">
+                    <label class="form-check-label textcolor" for="checkbox3">Poids Moyen</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="checkbox4" name="heavyweight">
+                    <label class="form-check-label textcolor" for="checkbox4">Poids Lourds</label>
+                </div>
+                <div class="row">
+                    <div class="col-auto">
+                        <button type="submit" class="btn btn-dark textcolor">Rechercher</button>
+                    </div>
+                    <div class="col">
+                        <button type="reset" class="btn btn-secondary textcolor">Effacer</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
