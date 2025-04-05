@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DPFs5rRENi2mfKbHbS20+MWp5dxYe2s1TJp0tzT9pCw=",
+  "Hash": "7vIZc5uMa9uLoTIGOFF8bQgFyNDuyBQ2Yj9LwDWJAiQ=",
   "Source": "tp2",
   "BasePath": "_content/tp2",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "tp2\\wwwroot",
       "Source": "tp2",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\css\\Style.css",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\css\\Style.css",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "css/Style#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Style.css"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\396d97a75361217b512c8955ee81c8e8.gif",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\396d97a75361217b512c8955ee81c8e8.gif",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/396d97a75361217b512c8955ee81c8e8#[.{fingerprint}]?.gif",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\396d97a75361217b512c8955ee81c8e8.gif"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\AcceuilJonJones.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\AcceuilJonJones.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/AcceuilJonJones#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\AcceuilJonJones.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\aldo.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\aldo.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/aldo#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\aldo.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\alexpeiraacceuil.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\alexpeiraacceuil.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/alexpeiraacceuil#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\alexpeiraacceuil.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\alexprc.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\alexprc.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/alexprc#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\alexprc.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\Aspinall.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\Aspinall.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/Aspinall#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Aspinall.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\background.gif",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\background.gif",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/background#[.{fingerprint}]?.gif",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\background.gif"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\belal.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\belal.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/belal#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\belal.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\conor.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\conor.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/conor#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\conor.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\DC.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\DC.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/DC#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\DC.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\IA.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\IA.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/IA#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\IA.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\jiri.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\jiri.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/jiri#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\jiri.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\max.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\max.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/max#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\max.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\nwwalp.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\nwwalp.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/nwwalp#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\nwwalp.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\paulocosta.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\paulocosta.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/paulocosta#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\paulocosta.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\poubelle.png",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\poubelle.png",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/poubelle#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\poubelle.png"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\pray.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\pray.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/pray#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\pray.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\showtimematador.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\showtimematador.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/showtimematador#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\showtimematador.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\stricland.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\stricland.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/stricland#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\stricland.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\test.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\test.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/test#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\test.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\thediamond.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\thediamond.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/thediamond#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\thediamond.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\topuria.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\topuria.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/topuria#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\topuria.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\TOPURIA_ILIA_L_BELT_10-26.png",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\TOPURIA_ILIA_L_BELT_10-26.png",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/TOPURIA_ILIA_L_BELT_10-26#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\TOPURIA_ILIA_L_BELT_10-26.png"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\topuriach.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\topuriach.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/topuriach#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\topuriach.jpg"
     },
     {
-      "Identity": "C:\\tp2\\tp2\\wwwroot\\Images\\volk.jpg",
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\volk.jpg",
       "SourceId": "tp2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\tp2\\tp2\\wwwroot\\",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
       "BasePath": "_content/tp2",
       "RelativePath": "Images/volk#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -566,7 +566,7 @@
   "Endpoints": [
     {
       "Route": "css/Style.css",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\css\\Style.css",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\css\\Style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -603,7 +603,7 @@
     },
     {
       "Route": "css/Style.wfcjsmdhwf.css",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\css\\Style.css",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\css\\Style.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -648,7 +648,7 @@
     },
     {
       "Route": "Images/396d97a75361217b512c8955ee81c8e8.gif",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\396d97a75361217b512c8955ee81c8e8.gif",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\396d97a75361217b512c8955ee81c8e8.gif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -685,7 +685,7 @@
     },
     {
       "Route": "Images/396d97a75361217b512c8955ee81c8e8.rq1svlgoce.gif",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\396d97a75361217b512c8955ee81c8e8.gif",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\396d97a75361217b512c8955ee81c8e8.gif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -730,7 +730,7 @@
     },
     {
       "Route": "Images/AcceuilJonJones.bf8ufvz97v.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\AcceuilJonJones.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\AcceuilJonJones.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -775,7 +775,7 @@
     },
     {
       "Route": "Images/AcceuilJonJones.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\AcceuilJonJones.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\AcceuilJonJones.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -812,7 +812,7 @@
     },
     {
       "Route": "Images/aldo.64d7yn2m62.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\aldo.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\aldo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -857,7 +857,7 @@
     },
     {
       "Route": "Images/aldo.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\aldo.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\aldo.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -894,7 +894,7 @@
     },
     {
       "Route": "Images/alexpeiraacceuil.ekh9qhaazj.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\alexpeiraacceuil.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\alexpeiraacceuil.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -939,7 +939,7 @@
     },
     {
       "Route": "Images/alexpeiraacceuil.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\alexpeiraacceuil.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\alexpeiraacceuil.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -976,7 +976,7 @@
     },
     {
       "Route": "Images/alexprc.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\alexprc.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\alexprc.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1013,7 +1013,7 @@
     },
     {
       "Route": "Images/alexprc.wstdhq45c4.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\alexprc.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\alexprc.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1058,7 +1058,7 @@
     },
     {
       "Route": "Images/Aspinall.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\Aspinall.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\Aspinall.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1095,7 +1095,7 @@
     },
     {
       "Route": "Images/Aspinall.ysccxtenja.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\Aspinall.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\Aspinall.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1140,7 +1140,7 @@
     },
     {
       "Route": "Images/background.4b4d7a4l3p.gif",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\background.gif",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\background.gif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1185,7 +1185,7 @@
     },
     {
       "Route": "Images/background.gif",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\background.gif",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\background.gif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1222,7 +1222,7 @@
     },
     {
       "Route": "Images/belal.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\belal.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\belal.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1259,7 +1259,7 @@
     },
     {
       "Route": "Images/belal.y66jhf2nkz.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\belal.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\belal.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1304,7 +1304,7 @@
     },
     {
       "Route": "Images/conor.bbf5o3rk81.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\conor.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\conor.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1349,7 +1349,7 @@
     },
     {
       "Route": "Images/conor.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\conor.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\conor.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1386,7 +1386,7 @@
     },
     {
       "Route": "Images/DC.87huni5x1r.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\DC.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\DC.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1431,7 +1431,7 @@
     },
     {
       "Route": "Images/DC.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\DC.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\DC.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1468,7 +1468,7 @@
     },
     {
       "Route": "Images/IA.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\IA.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\IA.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1505,7 +1505,7 @@
     },
     {
       "Route": "Images/IA.y4voa2n6sf.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\IA.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\IA.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1550,7 +1550,7 @@
     },
     {
       "Route": "Images/jiri.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\jiri.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\jiri.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1587,7 +1587,7 @@
     },
     {
       "Route": "Images/jiri.mnlscjbz2a.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\jiri.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\jiri.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1632,7 +1632,7 @@
     },
     {
       "Route": "Images/max.6ctrkms115.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\max.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\max.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1677,7 +1677,7 @@
     },
     {
       "Route": "Images/max.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\max.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\max.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1714,7 +1714,7 @@
     },
     {
       "Route": "Images/nwwalp.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\nwwalp.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\nwwalp.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1751,7 +1751,7 @@
     },
     {
       "Route": "Images/nwwalp.umbvm7zont.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\nwwalp.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\nwwalp.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1796,7 +1796,7 @@
     },
     {
       "Route": "Images/paulocosta.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\paulocosta.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\paulocosta.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1833,7 +1833,7 @@
     },
     {
       "Route": "Images/paulocosta.k6ap0e2vmw.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\paulocosta.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\paulocosta.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1878,7 +1878,7 @@
     },
     {
       "Route": "Images/poubelle.ezrpp175wp.png",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\poubelle.png",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\poubelle.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1923,7 +1923,7 @@
     },
     {
       "Route": "Images/poubelle.png",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\poubelle.png",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\poubelle.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1960,7 +1960,7 @@
     },
     {
       "Route": "Images/pray.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\pray.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\pray.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1997,7 +1997,7 @@
     },
     {
       "Route": "Images/pray.yfbf3lfypq.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\pray.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\pray.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2042,7 +2042,7 @@
     },
     {
       "Route": "Images/showtimematador.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\showtimematador.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\showtimematador.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2079,7 +2079,7 @@
     },
     {
       "Route": "Images/showtimematador.mrk0vl356s.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\showtimematador.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\showtimematador.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2124,7 +2124,7 @@
     },
     {
       "Route": "Images/stricland.7j3bva8d4l.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\stricland.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\stricland.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2169,7 +2169,7 @@
     },
     {
       "Route": "Images/stricland.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\stricland.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\stricland.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2206,7 +2206,7 @@
     },
     {
       "Route": "Images/test.56dxdbvz42.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\test.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\test.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2251,7 +2251,7 @@
     },
     {
       "Route": "Images/test.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\test.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\test.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2288,7 +2288,7 @@
     },
     {
       "Route": "Images/thediamond.iy5p3e2aem.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\thediamond.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\thediamond.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2333,7 +2333,7 @@
     },
     {
       "Route": "Images/thediamond.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\thediamond.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\thediamond.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2370,7 +2370,7 @@
     },
     {
       "Route": "Images/topuria.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\topuria.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\topuria.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2407,7 +2407,7 @@
     },
     {
       "Route": "Images/topuria.y6gxsb7uvu.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\topuria.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\topuria.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2452,7 +2452,7 @@
     },
     {
       "Route": "Images/TOPURIA_ILIA_L_BELT_10-26.png",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\TOPURIA_ILIA_L_BELT_10-26.png",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\TOPURIA_ILIA_L_BELT_10-26.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2489,7 +2489,7 @@
     },
     {
       "Route": "Images/TOPURIA_ILIA_L_BELT_10-26.tsi9sxs2jh.png",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\TOPURIA_ILIA_L_BELT_10-26.png",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\TOPURIA_ILIA_L_BELT_10-26.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2534,7 +2534,7 @@
     },
     {
       "Route": "Images/topuriach.29vudpqqo3.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\topuriach.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\topuriach.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2579,7 +2579,7 @@
     },
     {
       "Route": "Images/topuriach.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\topuriach.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\topuriach.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2616,7 +2616,7 @@
     },
     {
       "Route": "Images/volk.bdep3m04zu.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\volk.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\volk.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2661,7 +2661,7 @@
     },
     {
       "Route": "Images/volk.jpg",
-      "AssetFile": "C:\\tp2\\tp2\\wwwroot\\Images\\volk.jpg",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\volk.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {

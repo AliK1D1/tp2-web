@@ -1,0 +1,78 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Detail";
+    Layout = "~/Views/Shared/Gabari.cshtml";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-5">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="~/images/topuria.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/images/topuriach.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/images/showtimematador.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <form method="post" action="https://www.w3schools.com/action_page.php">
+                <input type="hidden" name="nom" value="Ilia Topuria">
+                <button type="submit" class="btn btn-primary mt-3">ajouter en favoris</button>
+            </form>
+            <div class="card mt-4 d-none d-md-block">
+                <div class="card-header">
+                    Informations supplémentaires
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Statistiques de combat</h5>
+                    <p class="card-text special">Nombre de combats : 16</p>
+                    <p class="card-text special">Victoires : 16</p>
+                    <p class="card-text special">Défaites : 0</p>
+                    <p class="card-text special">Matchs nuls : 0</p>
+                    <a href="https://www.youtube.com/watch?v=CuN2kRgh8vs" class="btn btn-primary">voir les meilleurs K.O</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-7 bordure opacitee">
+            <p>Nom: Topuria</p>
+            <p>Prenom: Ilia</p>
+            <p>Age: 28</p>
+            <p>poids: Plume</p>
+            <p>portee: 69.00</p>
+            <p>ratio: 16-0-0</p>
+            <p>victoires par KO: 6 </p>
+            <p>precision: 47%</p>
+            <p>origine: Allemagne</p>
+            <p>champion: True</p>
+            <h2>Description:</h2>
+            <details>
+                <summary>Ilia  topuria</summary>
+                <p>Ilia Topuria, surnommé "El Matador", est un combattant de MMA géorgien-espagnol. Né le 21 janvier 1997, il mesure 1,70 m et combat dans la catégorie des poids <del>plumes</del>  bientot en leger. Topuria est connu pour son style de combat agressif et polyvalent, combinant des compétences en boxe et en grappling. Il a remporté le titre de champion des poids plumes en battant Alexander Volkanovski par KO en février 2024. En octobre 2024, il a défendu son titre avec succès en battant Max Holloway par KO au troisième round2. Topuria est actuellement invaincu avec un record de 16 victoires.</p>
+            </details>
+            <!--la balise <del> met une barre sur du texte -->
+            <!--details cree une zone de text cache et on peux la voir uniquemment si on appuie sur le titre (summary)-->
+
+        </div>
+
+    </div>
+</div>

@@ -8,5 +8,20 @@ namespace tp2.Controllers
         {
             return View("Acceuil");
         }
+
+        public IActionResult recherche()
+        {
+            return View("recherche");
+        }
+        public IActionResult favoris()
+        {
+            return View("favoris");
+        }
+        public IActionResult detail()
+        {
+            return View("detail");
+        }
+
+
     }
 }

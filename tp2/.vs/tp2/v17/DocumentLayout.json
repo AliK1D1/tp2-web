@@ -1,29 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\tp2\\",
+  "WorkspaceRootPath": "C:\\tp2-web\\tp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2\\tp2\\views\\home\\acceuil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\home\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\home\\favoris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\home\\favoris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\home\\acceuil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\home\\acceuil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2\\tp2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2\\tp2\\views\\home\\recherche.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\home\\recherche.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\home\\recherche.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2\\tp2\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2\\tp2\\views\\shared\\gabari.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\shared\\gabari.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\shared\\gabari.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2\\tp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,85 +46,122 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "recherche.cshtml",
-              "DocumentMoniker": "C:\\tp2\\tp2\\Views\\Home\\recherche.cshtml",
-              "RelativeDocumentMoniker": "tp2\\Views\\Home\\recherche.cshtml",
-              "ToolTip": "C:\\tp2\\tp2\\Views\\Home\\recherche.cshtml",
-              "RelativeToolTip": "tp2\\Views\\Home\\recherche.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwIYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T18:54:27.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Style.css",
-              "DocumentMoniker": "C:\\tp2\\tp2\\wwwroot\\css\\Style.css",
-              "RelativeDocumentMoniker": "tp2\\wwwroot\\css\\Style.css",
-              "ToolTip": "C:\\tp2\\tp2\\wwwroot\\css\\Style.css",
-              "RelativeToolTip": "tp2\\wwwroot\\css\\Style.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-03T18:28:03.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Gabari.cshtml",
-              "DocumentMoniker": "C:\\tp2\\tp2\\Views\\Shared\\Gabari.cshtml",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\Shared\\Gabari.cshtml",
               "RelativeDocumentMoniker": "tp2\\Views\\Shared\\Gabari.cshtml",
-              "ToolTip": "C:\\tp2\\tp2\\Views\\Shared\\Gabari.cshtml",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\Shared\\Gabari.cshtml",
               "RelativeToolTip": "tp2\\Views\\Shared\\Gabari.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-03T17:57:43.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Acceuil.cshtml",
-              "DocumentMoniker": "C:\\tp2\\tp2\\Views\\Home\\Acceuil.cshtml",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\Home\\Acceuil.cshtml",
               "RelativeDocumentMoniker": "tp2\\Views\\Home\\Acceuil.cshtml",
-              "ToolTip": "C:\\tp2\\tp2\\Views\\Home\\Acceuil.cshtml",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\Home\\Acceuil.cshtml",
               "RelativeToolTip": "tp2\\Views\\Home\\Acceuil.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAmwAwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-03T17:38:20.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\tp2\\tp2\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "tp2\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\tp2\\tp2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Controllers\\HomeController.cs",
               "RelativeToolTip": "tp2\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T17:34:49.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "favoris.cshtml",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\Home\\favoris.cshtml",
+              "RelativeDocumentMoniker": "tp2\\Views\\Home\\favoris.cshtml",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\Home\\favoris.cshtml",
+              "RelativeToolTip": "tp2\\Views\\Home\\favoris.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T15:56:46.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "recherche.cshtml",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\Home\\recherche.cshtml",
+              "RelativeDocumentMoniker": "tp2\\Views\\Home\\recherche.cshtml",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\Home\\recherche.cshtml",
+              "RelativeToolTip": "tp2\\Views\\Home\\recherche.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwCUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T18:54:27.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "detail.cshtml",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\Home\\detail.cshtml",
+              "RelativeDocumentMoniker": "tp2\\Views\\Home\\detail.cshtml",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\Home\\detail.cshtml",
+              "RelativeToolTip": "tp2\\Views\\Home\\detail.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T15:52:52.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Style.css",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\css\\Style.css",
+              "RelativeDocumentMoniker": "tp2\\wwwroot\\css\\Style.css",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\css\\Style.css",
+              "RelativeToolTip": "tp2\\wwwroot\\css\\Style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-03T18:28:03.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Models\\User.cs",
+              "RelativeDocumentMoniker": "tp2\\Models\\User.cs",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Models\\User.cs",
+              "RelativeToolTip": "tp2\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T15:55:55.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\tp2\\tp2\\Program.cs",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Program.cs",
               "RelativeDocumentMoniker": "tp2\\Program.cs",
-              "ToolTip": "C:\\tp2\\tp2\\Program.cs",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Program.cs",
               "RelativeToolTip": "tp2\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAB3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T17:01:03.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T17:01:03.479Z"
             }
           ]
         }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\tp2\\tp2\\tp2.csproj",
+      "projectUniqueName": "C:\\tp2-web\\tp2\\tp2\\tp2.csproj",
       "projectName": "tp2",
-      "projectPath": "C:\\tp2\\tp2\\tp2.csproj",
+      "projectPath": "C:\\tp2-web\\tp2\\tp2\\tp2.csproj",
       "packagesPath": "C:\\Users\\alikh\\.nuget\\packages\\",
-      "outputPath": "C:\\tp2\\tp2\\obj\\",
+      "outputPath": "C:\\tp2-web\\tp2\\tp2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,82 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Favoris";
+    Layout = "~/Views/Shared/Gabari.cshtml";
+}
+<main>
+    <div class="container table-container relative-position">
+        <div class="table-responsive">
+            <table class="table table-bordered large-table">
+                <thead>
+                    <tr>
+                        <th>Photo</th>
+                        <th>Nom du Fighter</th>
+                        <th>Catégorie de poids</th>
+                        <th>Champion</th>
+                        <th>Décocher des Favoris</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="/home/detail"><img src="./images/topuriach.jpg" class="img-fluid" alt="Fighter 1"></a></td>
+                        <td>
+                            <form method="POST" action="https://www.w3schools.com/action_page.php">
+                                <input type="hidden" name="combattant" value="Ilia Topuria">
+                                <input type="submit" value="Ilia Topuria" class="btn btn-link text-white">
+                            </form>
+                        </td>
+                        <td>Poids plume</td>
+                        <td>oui</td>
+                        <td>
+                            <form method="POST" action="https://www.w3schools.com/action_page.php">
+                                <input type="hidden" name="combattant" value="Ilia Topuria">
+                                <button type="submit" class="btn btn-link text-white">
+                                    <i class="fas fa-trash-alt"></i>
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="/home/detail"><img src="./images/alexprc.jpg" class="img-fluid" alt="Fighter 2"></a></td>
+                        <td>
+                            <form method="POST" action="https://www.w3schools.com/action_page.php">
+                                <input type="hidden" name="fighter" value="Alex Pereira">
+                                <input type="submit" value="Alex Pereira" class="btn btn-link text-white">
+                            </form>
+                        </td>
+                        <td>Poids moyen</td>
+                        <td>oui</td>
+                        <td>
+                            <form method="POST" action="https://www.w3schools.com/action_page.php">
+                                <input type="hidden" name="combattant" value="Alex Pereira">
+                                <button type="submit" class="btn btn-link text-white">
+                                    <i class="fas fa-trash-alt"></i>
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="/home/detail"><img src="./images/Aspinall.jpg" class="img-fluid" alt="Fighter 3"></a></td>
+                        <td>
+                            <form method="POST" action="https://www.w3schools.com/action_page.php">
+                                <input type="hidden" name="fighter" value="Tom Aspinall">
+                                <input type="submit" value="Tom Aspinall" class="btn btn-link text-white">
+                            </form>
+                        </td>
+                        <td>Poids lourd</td>
+                        <td>oui</td>
+                        <td>
+                            <form method="POST" action="https://www.w3schools.com/action_page.php">
+                                <input type="hidden" name="combattant" value="Tom Aspinall">
+                                <button type="submit" class="btn btn-link text-white">
+                                    <i class="fas fa-trash-alt"></i>
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
