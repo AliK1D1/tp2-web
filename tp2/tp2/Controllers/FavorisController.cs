@@ -2,15 +2,11 @@
 
 namespace tp2.Controllers
 {
-    public class HomeController : Controller
+    public class FavorisController : Controller
     {
         public IActionResult Index()
         {
-            return View("Acceuil");
+            return View("favoris");
         }
-
-
-
-
     }
 }

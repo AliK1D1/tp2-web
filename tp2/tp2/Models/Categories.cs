@@ -1,0 +1,13 @@
+﻿namespace tp2.Models
+{
+    public class Categories
+    {
+        public int Id { get; set; }
+
+        public string Nom { get; set; } 
+
+        public int Poids { get; set; }
+
+        public string ImageCombattantLegende { get; set; } 
+    }
+}
