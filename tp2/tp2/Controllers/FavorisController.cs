@@ -6,7 +6,7 @@ namespace tp2.Controllers
     {
         public IActionResult Index()
         {
-            return View("favoris");
+            return View();
         }
     }
 }

@@ -6,11 +6,11 @@ namespace tp2.Controllers
     {
         public IActionResult recherche()
         {
-            return View("recherche");
+            return View();
         }
         public IActionResult detail()
         {
-            return View("detail");
+            return View();
         }
     }
 }
