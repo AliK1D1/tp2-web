@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\models\\basededonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\enfant\\recherche.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\enfant\\recherche.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\models\\ratiocombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\models\\ratiocombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\models\\combattant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\models\\combattant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\models\\combattant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\models\\combattant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\enfant\\recherche.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\enfant\\recherche.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\models\\ratiocombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\models\\ratiocombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\controllers\\enfantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -76,27 +76,27 @@
               "RelativeDocumentMoniker": "tp2\\Models\\BaseDeDonnees.cs",
               "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Models\\BaseDeDonnees.cs",
               "RelativeToolTip": "tp2\\Models\\BaseDeDonnees.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBYAAAASAQAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAxwBAAAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T17:30:49.661Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Categories.cs",
               "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Models\\Categories.cs",
               "RelativeDocumentMoniker": "tp2\\Models\\Categories.cs",
               "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Models\\Categories.cs",
               "RelativeToolTip": "tp2\\Models\\Categories.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T17:18:01.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ratiocombat.cs",
               "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Models\\ratiocombat.cs",
               "RelativeDocumentMoniker": "tp2\\Models\\ratiocombat.cs",
@@ -104,18 +104,17 @@
               "RelativeToolTip": "tp2\\Models\\ratiocombat.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T17:06:36.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T17:06:36.466Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Combattant.cs",
               "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Models\\Combattant.cs",
               "RelativeDocumentMoniker": "tp2\\Models\\Combattant.cs",
               "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Models\\Combattant.cs",
               "RelativeToolTip": "tp2\\Models\\Combattant.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA4AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T17:01:05.97Z",
               "EditorCaption": ""
@@ -130,8 +129,7 @@
               "RelativeToolTip": "tp2\\Controllers\\EnfantController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:55:00.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:55:00.177Z"
             },
             {
               "$type": "Document",
@@ -143,8 +141,7 @@
               "RelativeToolTip": "tp2\\Controllers\\FavorisController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:55:11.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:55:11.275Z"
             },
             {
               "$type": "Document",
@@ -156,18 +153,17 @@
               "RelativeToolTip": "tp2\\Views\\Enfant\\detail.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T15:52:52.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T15:52:52.253Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "recherche.cshtml",
               "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\Enfant\\recherche.cshtml",
               "RelativeDocumentMoniker": "tp2\\Views\\Enfant\\recherche.cshtml",
               "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\Enfant\\recherche.cshtml",
               "RelativeToolTip": "tp2\\Views\\Enfant\\recherche.cshtml",
-              "ViewState": "AgIAAD0AAAAAAAAAAAApwE8AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-03T18:54:27.176Z",
               "EditorCaption": ""
@@ -182,8 +178,7 @@
               "RelativeToolTip": "tp2\\Views\\Favoris\\favoris.cshtml",
               "ViewState": "AgIAADkAAAAAAAAAAAAAADwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T15:56:46.238Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-05T15:56:46.238Z"
             },
             {
               "$type": "Document",
@@ -195,8 +190,7 @@
               "RelativeToolTip": "tp2\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T17:34:49.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T17:34:49.348Z"
             },
             {
               "$type": "Document",
@@ -208,8 +202,7 @@
               "RelativeToolTip": "tp2\\Views\\Shared\\Gabari.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T17:57:43.888Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T17:57:43.888Z"
             },
             {
               "$type": "Document",
@@ -221,8 +214,7 @@
               "RelativeToolTip": "tp2\\Views\\Home\\Acceuil.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAApwBgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T17:38:20.376Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T17:38:20.376Z"
             },
             {
               "$type": "Document",

@@ -6,6 +6,7 @@
 
         public string Nom { get; set; } 
 
+        public List<Combattant> Combattants { get; set; }
         public int Poids { get; set; }
 
         public string ImageCombattantLegende { get; set; } 
