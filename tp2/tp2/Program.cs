@@ -1,8 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 
+
 var builder = WebApplication.CreateBuilder(args); // Crée une web app avec les paramètres envoyés
 builder.Services.AddControllersWithViews(); // Permet MVC
+builder.Services.AddSingleton<tp2.Models.BaseDeDonnees>();
 var app = builder.Build();
+ 
 
 if (app.Environment.IsDevelopment())
 {
