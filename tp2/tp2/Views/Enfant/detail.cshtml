@@ -1,7 +1,10 @@
 ﻿@*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
-
+@model tp2.Models.Combattant
+@{
+    ViewData["Title"] = "Détails du combattant";
+}
 <div class="container">
     <div class="row">
         <div class="col-5">
@@ -13,10 +16,10 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="~/images/topuria.jpg" class="d-block w-100" alt="...">
+                        <img src="@Model.ImageUrl" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="~/images/topuriach.jpg" class="d-block w-100" alt="...">
+                        <img src="" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
                         <img src="~/images/showtimematador.jpg" class="d-block w-100" alt="...">
@@ -51,20 +54,19 @@
 
         </div>
         <div class="col-7 bordure opacitee">
-            <p>Nom: Topuria</p>
-            <p>Prenom: Ilia</p>
-            <p>Age: 28</p>
-            <p>poids: Plume</p>
-            <p>portee: 69.00</p>
-            <p>ratio: 16-0-0</p>
-            <p>victoires par KO: 6 </p>
-            <p>precision: 47%</p>
-            <p>origine: Allemagne</p>
-            <p>champion: True</p>
+            <p>Nom: @Model.Nom</p>
+            <p>Age: @Model.Age</p>
+            <p>poids: @Model.Poid</p>
+            <p>portee: @Model.Reach</p>
+            <p>ratio: @Model.Ratio</p>
+            <p>victoires par KO: @Model.VictoiresParKO</p>
+            <p>precision: @Model.Precision</p>
+            <p>origine: @Model.Origine</p>
+            <p>champion: @Model.EstChampion</p>
             <h2>Description:</h2>
             <details>
-                <summary>Ilia  topuria</summary>
-                <p>Ilia Topuria, surnommé "El Matador", est un combattant de MMA géorgien-espagnol. Né le 21 janvier 1997, il mesure 1,70 m et combat dans la catégorie des poids <del>plumes</del>  bientot en leger. Topuria est connu pour son style de combat agressif et polyvalent, combinant des compétences en boxe et en grappling. Il a remporté le titre de champion des poids plumes en battant Alexander Volkanovski par KO en février 2024. En octobre 2024, il a défendu son titre avec succès en battant Max Holloway par KO au troisième round2. Topuria est actuellement invaincu avec un record de 16 victoires.</p>
+                <summary>@Model.Nom</summary>
+                <p>@Model.Description</p>
             </details>
             <!--la balise <del> met une barre sur du texte -->
             <!--details cree une zone de text cache et on peux la voir uniquemment si on appuie sur le titre (summary)-->
