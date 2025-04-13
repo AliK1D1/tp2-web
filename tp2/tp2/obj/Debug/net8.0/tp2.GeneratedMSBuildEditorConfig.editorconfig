@@ -9,39 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = tp2
 build_property.RootNamespace = tp2
-build_property.ProjectDir = C:\Users\2255834\Desktop\tp2-web\tp2\tp2\
+build_property.ProjectDir = C:\tp2-web\tp2\tp2\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\2255834\Desktop\tp2-web\tp2\tp2
+build_property.MSBuildProjectDirectory = C:\tp2-web\tp2\tp2
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/2255834/Desktop/tp2-web/tp2/tp2/Views/Enfant/detail.cshtml]
+[C:/tp2-web/tp2/tp2/Views/Enfant/detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5mYW50XGRldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2255834/Desktop/tp2-web/tp2/tp2/Views/Enfant/recherche.cshtml]
+[C:/tp2-web/tp2/tp2/Views/Enfant/recherche.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5mYW50XHJlY2hlcmNoZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2255834/Desktop/tp2-web/tp2/tp2/Views/Favoris/favoris.cshtml]
+[C:/tp2-web/tp2/tp2/Views/Favoris/favoris.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3Jpc1xmYXZvcmlzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2255834/Desktop/tp2-web/tp2/tp2/Views/Home/Index.cshtml]
+[C:/tp2-web/tp2/tp2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2255834/Desktop/tp2-web/tp2/tp2/Views/Shared/Gabari.cshtml]
+[C:/tp2-web/tp2/tp2/Views/Shared/Gabari.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEdhYmFyaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2255834/Desktop/tp2-web/tp2/tp2/Views/_ViewImports.cshtml]
+[C:/tp2-web/tp2/tp2/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2255834/Desktop/tp2-web/tp2/tp2/Views/_ViewStart.cshtml]
+[C:/tp2-web/tp2/tp2/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
