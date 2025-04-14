@@ -1069,6 +1069,88 @@
       ]
     },
     {
+      "Route": "Images/leg-break-ufc.01ja8wgmzo.gif",
+      "AssetFile": "Images/leg-break-ufc.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "317818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LHn54ibCF1LvS+CHjUfYwfN1FhA48JAK8qmwCPxgsp4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 15:47:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "01ja8wgmzo"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LHn54ibCF1LvS+CHjUfYwfN1FhA48JAK8qmwCPxgsp4="
+        },
+        {
+          "Name": "label",
+          "Value": "Images/leg-break-ufc.gif"
+        }
+      ]
+    },
+    {
+      "Route": "Images/leg-break-ufc.gif",
+      "AssetFile": "Images/leg-break-ufc.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "317818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LHn54ibCF1LvS+CHjUfYwfN1FhA48JAK8qmwCPxgsp4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 15:47:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LHn54ibCF1LvS+CHjUfYwfN1FhA48JAK8qmwCPxgsp4="
+        }
+      ]
+    },
+    {
       "Route": "Images/max.6ctrkms115.jpg",
       "AssetFile": "Images/max.jpg",
       "Selectors": [],

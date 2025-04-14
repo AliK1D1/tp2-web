@@ -18,13 +18,15 @@ namespace tp2.Controllers
 			return View(combattants);
 		}
 		[Route("Enfant/detail/{id:int}")]
+		[Route("Enfant/{id:int}")]
+		[Route("/{id:int}")]
 		public IActionResult detail(int id)
 		{
 			var combattant = _db.Combattants.FirstOrDefault(c => c.Id == id);
 
 			if (combattant == null)
 			{
-				return NotFound(); 
+				return View("NotFound"); 
 			}
 
 			return View(combattant);

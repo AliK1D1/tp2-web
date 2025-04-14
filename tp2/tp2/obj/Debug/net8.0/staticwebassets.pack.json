@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\Images\\jiri.jpg"
     },
     {
+      "Id": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\leg-break-ufc.gif",
+      "PackagePath": "staticwebassets\\Images\\leg-break-ufc.gif"
+    },
+    {
       "Id": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\max.jpg",
       "PackagePath": "staticwebassets\\Images\\max.jpg"
     },

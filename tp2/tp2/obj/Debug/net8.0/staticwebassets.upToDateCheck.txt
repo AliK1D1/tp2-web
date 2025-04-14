@@ -11,6 +11,7 @@ wwwroot\Images\conor.jpg
 wwwroot\Images\DC.jpg
 wwwroot\Images\IA.jpg
 wwwroot\Images\jiri.jpg
+wwwroot\Images\leg-break-ufc.gif
 wwwroot\Images\max.jpg
 wwwroot\Images\nwwalp.jpg
 wwwroot\Images\paulocosta.jpg

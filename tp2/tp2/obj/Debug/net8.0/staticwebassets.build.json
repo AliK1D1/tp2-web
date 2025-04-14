@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3El0vJVhbP9QzhmIHUdcXAli5hDVgOkBiAjj5yXoKqo=",
+  "Hash": "dkyi91dJeCFBqsWTaI1Ct4r4SF4yoWVuOIFv1xPx5+Y=",
   "Source": "tp2",
   "BasePath": "_content/tp2",
   "Mode": "Default",
@@ -288,6 +288,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\jiri.jpg"
+    },
+    {
+      "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\leg-break-ufc.gif",
+      "SourceId": "tp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\",
+      "BasePath": "_content/tp2",
+      "RelativePath": "Images/leg-break-ufc#[.{fingerprint}]?.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "01ja8wgmzo",
+      "Integrity": "LHn54ibCF1LvS+CHjUfYwfN1FhA48JAK8qmwCPxgsp4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\leg-break-ufc.gif"
     },
     {
       "Identity": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\max.jpg",
@@ -1627,6 +1648,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Xns7MOOuaALVcvt1OyNcf7JpCXwN/5+hZC7G8J6NP0c="
+        }
+      ]
+    },
+    {
+      "Route": "Images/leg-break-ufc.01ja8wgmzo.gif",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\leg-break-ufc.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "317818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LHn54ibCF1LvS+CHjUfYwfN1FhA48JAK8qmwCPxgsp4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 15:47:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "01ja8wgmzo"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/leg-break-ufc.gif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LHn54ibCF1LvS+CHjUfYwfN1FhA48JAK8qmwCPxgsp4="
+        }
+      ]
+    },
+    {
+      "Route": "Images/leg-break-ufc.gif",
+      "AssetFile": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\leg-break-ufc.gif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "317818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/gif"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LHn54ibCF1LvS+CHjUfYwfN1FhA48JAK8qmwCPxgsp4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Apr 2025 15:47:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LHn54ibCF1LvS+CHjUfYwfN1FhA48JAK8qmwCPxgsp4="
         }
       ]
     },

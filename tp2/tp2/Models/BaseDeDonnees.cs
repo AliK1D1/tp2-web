@@ -14,7 +14,7 @@ namespace tp2.Models
             Combattants = new List<Combattant>();
             
             
-            Categories.Add(new Categories() { Id = 1, Nom = "Poids Plume", Poids = 145, ImageCombattantLegende = "~/images/josealdo.jpg" });
+            Categories.Add(new Categories() { Id = 1, Nom = "Poids Plume", Poids = 145, ImageCombattantLegende = "~/images/Topuria.jpg", Description= "Les <span class=\"rouge\">poids plumes</span> en UFC sont des combattants pesant entre 136 et 145 livres. Cette catégorie, riche en talents, est célèbre pour sa combinaison de vitesse, de technique et de puissance. Les athlètes de cette division sont souvent parmi les plus dynamiques et explosifs, offrant des combats spectaculaires. Des stars comme Conor McGregor, qui a remporté le titre en 2015, et Ilia Topuria, champion actuel, ont marqué cette catégorie par leurs performances impressionnantes. Leurs styles variés, allant du striking au grappling, rendent chaque affrontement imprévisible et excitant pour les fans. En somme, le poids plume en UFC est synonyme de compétitivité intense et de moments mémorables dans l'histoire du sport. \U0001f94a" });
             Categories.Add(new Categories() { Id = 2, Nom = "Poids Moyen", Poids = 185, ImageCombattantLegende = "~/images/andersonsilva.jpg" });
             Categories.Add(new Categories() { Id = 3, Nom = "Poids Lourd", Poids = 265, ImageCombattantLegende = "~/images/cainvelasquez.jpg" });
             Combattants.Add(new Combattant() { Id = 1, IdCategorie = 1, Nom = "Ilia Topuria", Poid = "Poids Plume", EstChampion = true, Description = "Champion actuel", Reach = 69, Origine = "Espagne", Precision = 55, VictoiresParKO = 12, ImageUrl = "/images/topuriach.jpg", Ratio = new ratiocombat(16, 0, 0), Age = 26 });

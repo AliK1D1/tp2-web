@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\tp2-web\\tp2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\models\\basededonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\models\\basededonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\shared\\notfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\shared\\notfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\controllers\\enfantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\controllers\\enfantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\enfant\\recherche.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\enfant\\recherche.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\models\\combattant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\models\\combattant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\enfant\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\enfant\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\enfant\\recherche.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\enfant\\recherche.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\models\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,28 +35,32 @@
       "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\models\\ratiocombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\favoris\\favoris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\favoris\\favoris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\controllers\\favoriscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\controllers\\favoriscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\favoris\\favoris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\favoris\\favoris.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\models\\basededonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\models\\basededonnees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\models\\combattant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\models\\combattant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\views\\shared\\gabari.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\views\\shared\\gabari.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|c:\\tp2-web\\tp2\\tp2\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{0377DAA3-63DF-401B-AFC5-4C9BC8DFA610}|tp2\\tp2.csproj|solutionrelative:tp2\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,17 +78,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "detail.cshtml",
               "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\Enfant\\detail.cshtml",
               "RelativeDocumentMoniker": "tp2\\Views\\Enfant\\detail.cshtml",
               "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\Enfant\\detail.cshtml",
               "RelativeToolTip": "tp2\\Views\\Enfant\\detail.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC0AAABGAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-05T15:52:52.253Z",
               "IsPinned": true,
@@ -92,13 +96,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Categories.cs",
               "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Models\\Categories.cs",
               "RelativeDocumentMoniker": "tp2\\Models\\Categories.cs",
               "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Models\\Categories.cs",
               "RelativeToolTip": "tp2\\Models\\Categories.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T17:18:01.613Z",
               "IsPinned": true,
@@ -106,71 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Combattant.cs",
-              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Models\\Combattant.cs",
-              "RelativeDocumentMoniker": "tp2\\Models\\Combattant.cs",
-              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Models\\Combattant.cs",
-              "RelativeToolTip": "tp2\\Models\\Combattant.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T17:01:05.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EnfantController.cs",
-              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Controllers\\EnfantController.cs",
-              "RelativeDocumentMoniker": "tp2\\Controllers\\EnfantController.cs",
-              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Controllers\\EnfantController.cs",
-              "RelativeToolTip": "tp2\\Controllers\\EnfantController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:55:00.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BaseDeDonnees.cs",
-              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Models\\BaseDeDonnees.cs",
-              "RelativeDocumentMoniker": "tp2\\Models\\BaseDeDonnees.cs",
-              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Models\\BaseDeDonnees.cs",
-              "RelativeToolTip": "tp2\\Models\\BaseDeDonnees.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T17:30:49.661Z",
+              "Title": "NotFound.cshtml",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\Shared\\NotFound.cshtml",
+              "RelativeDocumentMoniker": "tp2\\Views\\Shared\\NotFound.cshtml",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\Shared\\NotFound.cshtml",
+              "RelativeToolTip": "tp2\\Views\\Shared\\NotFound.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T15:40:45.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "recherche.cshtml",
-              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\Enfant\\recherche.cshtml",
-              "RelativeDocumentMoniker": "tp2\\Views\\Enfant\\recherche.cshtml",
-              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\Enfant\\recherche.cshtml",
-              "RelativeToolTip": "tp2\\Views\\Enfant\\recherche.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T18:54:27.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "tp2\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "tp2\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T17:38:20.376Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ratiocombat.cs",
               "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Models\\ratiocombat.cs",
               "RelativeDocumentMoniker": "tp2\\Models\\ratiocombat.cs",
@@ -183,7 +136,135 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnfantController.cs",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Controllers\\EnfantController.cs",
+              "RelativeDocumentMoniker": "tp2\\Controllers\\EnfantController.cs",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Controllers\\EnfantController.cs",
+              "RelativeToolTip": "tp2\\Controllers\\EnfantController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:55:00.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "favoris.cshtml",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\Favoris\\favoris.cshtml",
+              "RelativeDocumentMoniker": "tp2\\Views\\Favoris\\favoris.cshtml",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\Favoris\\favoris.cshtml",
+              "RelativeToolTip": "tp2\\Views\\Favoris\\favoris.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T15:56:46.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Style.css",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\css\\Style.css",
+              "RelativeDocumentMoniker": "tp2\\wwwroot\\css\\Style.css",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\css\\Style.css",
+              "RelativeToolTip": "tp2\\wwwroot\\css\\Style.css",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAOsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-03T18:28:03.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FavorisController.cs",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Controllers\\FavorisController.cs",
+              "RelativeDocumentMoniker": "tp2\\Controllers\\FavorisController.cs",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Controllers\\FavorisController.cs",
+              "RelativeToolTip": "tp2\\Controllers\\FavorisController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T15:55:11.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "recherche.cshtml",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\Enfant\\recherche.cshtml",
+              "RelativeDocumentMoniker": "tp2\\Views\\Enfant\\recherche.cshtml",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\Enfant\\recherche.cshtml",
+              "RelativeToolTip": "tp2\\Views\\Enfant\\recherche.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T18:54:27.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "tp2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "tp2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T17:38:20.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseDeDonnees.cs",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Models\\BaseDeDonnees.cs",
+              "RelativeDocumentMoniker": "tp2\\Models\\BaseDeDonnees.cs",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Models\\BaseDeDonnees.cs",
+              "RelativeToolTip": "tp2\\Models\\BaseDeDonnees.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBAAAACCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T17:30:49.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "tp2\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "tp2\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T18:54:59.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "tp2\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "tp2\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T14:07:24.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Combattant.cs",
+              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Models\\Combattant.cs",
+              "RelativeDocumentMoniker": "tp2\\Models\\Combattant.cs",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Models\\Combattant.cs",
+              "RelativeToolTip": "tp2\\Models\\Combattant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T17:01:05.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "tp2\\Controllers\\HomeController.cs",
@@ -195,55 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "favoris.cshtml",
-              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\Favoris\\favoris.cshtml",
-              "RelativeDocumentMoniker": "tp2\\Views\\Favoris\\favoris.cshtml",
-              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\Favoris\\favoris.cshtml",
-              "RelativeToolTip": "tp2\\Views\\Favoris\\favoris.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAgwAkAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-05T15:56:46.238Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FavorisController.cs",
-              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Controllers\\FavorisController.cs",
-              "RelativeDocumentMoniker": "tp2\\Controllers\\FavorisController.cs",
-              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Controllers\\FavorisController.cs",
-              "RelativeToolTip": "tp2\\Controllers\\FavorisController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:55:11.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "tp2\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "tp2\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-09T18:54:59.795Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "tp2\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "tp2\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-08T14:07:24.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Program.cs",
               "RelativeDocumentMoniker": "tp2\\Program.cs",
@@ -255,7 +288,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Gabari.cshtml",
               "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Views\\Shared\\Gabari.cshtml",
               "RelativeDocumentMoniker": "tp2\\Views\\Shared\\Gabari.cshtml",
@@ -264,18 +297,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-03T17:57:43.888Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Style.css",
-              "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\css\\Style.css",
-              "RelativeDocumentMoniker": "tp2\\wwwroot\\css\\Style.css",
-              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\css\\Style.css",
-              "RelativeToolTip": "tp2\\wwwroot\\css\\Style.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-03T18:28:03.203Z"
             }
           ]
         }

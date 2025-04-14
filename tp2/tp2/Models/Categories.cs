@@ -9,6 +9,7 @@
         public List<Combattant> Combattants { get; set; }
         public int Poids { get; set; }
 
+        public String Description { get; set; }
         public string ImageCombattantLegende { get; set; } 
     }
 }
