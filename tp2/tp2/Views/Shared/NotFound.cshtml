@@ -1,15 +1,97 @@
-﻿
-<style>
-    .img-size{
-        display: block;
-        margin:0;
-        width: 100%;
-        max-width:800px;
-        height:100%;
-    }
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>404 - Fight Not Found</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-</style>
-<h1>Wrong page</h1>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
+            padding: 40px;
+        }
 
+        h1 {
+            font-size: 3em;
+            color: #d62828;
+            margin-bottom: 10px;
+        }
 
-<img src="~/images/leg-break-ufc.gif" class="img-fluid img-size" alt="Fighter 3">
+        #map {
+            height: 500px;
+            width: 80%;
+            margin: 30px auto;
+            border: 2px solid #ccc;
+            border-radius: 12px;
+        }
+
+        .message {
+            max-width: 700px;
+            margin: auto;
+            font-size: 1.2em;
+        }
+
+        .you {
+            font-weight: bold;
+            color: white;
+            margin-top: 20px;
+        }
+
+        a {
+            color: #0077cc;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+
+    <h1>404 - FIGHT NOT FOUND</h1>
+    <div class="message">
+        <p>This is the Octagon, but you're way outside it...</p>
+        <p>While you're lost, enjoy this map of past UFC events around the world.</p>
+        <p class="you">You are here (somewhere off the radar 👀)</p>
+        <p><a href="/">retour a la page d'acceuil(Home)</a></p>
+    </div>
+
+    <div id="map"></div>
+
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script>
+        var map = L.map('map').setView([20, 0], 2);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 18,
+        }).addTo(map);
+
+       
+        var events = [
+            { city: "Las Vegas", coords: [36.1699, -115.1398], event: "UFC 300" },
+            { city: "New York", coords: [40.7128, -74.0060], event: "UFC 268" },
+            { city: "Abu Dhabi", coords: [24.4539, 54.3773], event: "UFC 280" },
+            { city: "London", coords: [51.5074, -0.1278], event: "UFC Fight Night London" },
+            { city: "Rio de Janeiro", coords: [-22.9068, -43.1729], event: "UFC 283" },
+            { city: "Paris", coords: [48.8566, 2.3522], event: "UFC Paris" },
+            { city: "Tokyo", coords: [35.6762, 139.6503], event: "UFC Japan Special" },
+            { city: "Sydney", coords: [-33.8688, 151.2093], event: "UFC 293" },
+            { city: "Mexico City", coords: [19.4326, -99.1332], event: "UFC Fight Night Mexico" },
+            { city: "Toronto", coords: [43.6532, -79.3832], event: "UFC 231" },
+            { city: "Stockholm", coords: [59.3293, 18.0686], event: "UFC Fight Night Sweden" },
+            { city: "Chicago", coords: [41.8781, -87.6298], event: "UFC 225" }
+        ];
+
+        events.forEach(e => {
+            L.marker(e.coords).addTo(map)
+                .bindPopup(`<b>${e.event}</b><br>${e.city}`);
+        });
+    </script>
+
+</body>
+</html>
