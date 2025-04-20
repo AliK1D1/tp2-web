@@ -13,7 +13,7 @@ namespace tp2.Controllers
 		public IActionResult Index()
 		{
 			var combattant = _db.Combattants;
-			return View(combattant);
+			return View("favoris",combattant);
 		}
 	}
 }

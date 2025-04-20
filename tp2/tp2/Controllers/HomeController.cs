@@ -16,7 +16,7 @@ namespace tp2.Controllers
 
         public IActionResult Index()
         {
-            var c = _db.Combattants;
+            var c = _db.Categories;
             return View(c);
         }
 

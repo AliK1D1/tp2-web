@@ -12,25 +12,47 @@ namespace tp2.Controllers
 			_db = bd;
 		}
 
-		public IActionResult recherche()
+        [Route("Enfant/recherche")]
+        public IActionResult recherche()
 		{
 			var combattants = _db.Combattants;
 			return View(combattants);
 		}
-		[Route("Enfant/detail/{id:int}")]
-		[Route("Enfant/{id:int}")]
-		[Route("/{id:int}")]
-		public IActionResult detail(int id)
+
+
+
+
+
+
+		[Route("Enfant/detail/{value}")]
+		[Route("Enfant/{value}")]
+		[Route("/{value}")]
+		public IActionResult detail(string value)
 		{
-			var combattant = _db.Combattants.FirstOrDefault(c => c.Id == id);
 
-			if (combattant == null)
-			{
-				return View("NotFound"); 
-			}
 
-			return View(combattant);
-			
-		}
+            Combattant combattant = null;
+
+            if (int.TryParse(value, out int id))
+            {
+                
+                combattant = _db.Combattants.FirstOrDefault(c => c.Id == id);
+            }
+            else
+            {
+                
+                combattant = _db.Combattants.FirstOrDefault(c =>
+                    c.Nom.Replace(" ", "").ToLower() == value.Replace(" ", "").ToLower()
+                );
+            }
+
+            if (combattant == null)
+            {
+                return View("NotFound");
+            }
+
+            return View(combattant);
+
+        }
 	}
 }

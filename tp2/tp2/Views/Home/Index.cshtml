@@ -1,27 +1,33 @@
-﻿
-
+﻿@model List<tp2.Models.Categories>
 
 <h2 class="text-center my-4">Catégories de Poids UFC</h2>
 
 <div class="container">
     <div class="row espace justify-content-between fondombre nohover">
-        <a href="/Enfant/recherche" class="col-12 col-md-3 col-lg-3 col-xl-3 bordure opacitee textdeco mb-4 text-center text-md-start order-1 order-md-1" >
-            <h1>POIDS PLUME</h1>
-            <img src="~/images/topuria.jpg" class="img-fluid" alt="Poids plume">
-            <p>Les <span class="rouge">poids plumes</span> en UFC sont des combattants pesant entre 136 et 145 livres. Cette catégorie, riche en talents, est célèbre pour sa combinaison de vitesse, de technique et de puissance. Les athlètes de cette division sont souvent parmi les plus dynamiques et explosifs, offrant des combats spectaculaires. Des stars comme Conor McGregor, qui a remporté le titre en 2015, et Ilia Topuria, champion actuel, ont marqué cette catégorie par leurs performances impressionnantes. Leurs styles variés, allant du striking au grappling, rendent chaque affrontement imprévisible et excitant pour les fans. En somme, le poids plume en UFC est synonyme de compétitivité intense et de moments mémorables dans l'histoire du sport. 🥊</p>
-        </a>
+        @foreach (var cat in Model)
+        {
+           
+            var combattants = cat.Combattants ?? new List<tp2.Models.Combattant>();
+            var actifs = combattants.Where(c => c.EstActif).ToList();
 
-        <a href="/Enfant/recherche" class="col-12 col-md-3 col-lg-3 col-xl-3 bordure opacitee textdeco mb-4 text-center text-md-start order-3 order-md-2" >
-            <h1>POIDS MOYEN</h1>
-            <img src="~/images/alexpeiraacceuil.jpg" class="img-fluid" alt="Poids moyen">
-            <p>Les <span class="rouge">poids moyens</span> en UFC sont des combattants pesant entre 171 et 185 livres. Cette catégorie est réputée pour sa diversité de styles et sa compétitivité intense. Les combattants de cette division combinent souvent puissance, endurance et technique, rendant leurs combats imprévisibles et passionnants. Des légendes comme Anderson Silva, connu pour son striking exceptionnel et sa longue série de victoires, ont marqué l'histoire de cette catégorie. Plus récemment, Israel Adesanya s'est distingué avec son style unique et ses performances spectaculaires. Les combats de poids moyen offrent souvent des moments mémorables et des retournements de situation inattendus, captivant les fans du monde entier. En somme, cette division incarne parfaitement l'essence de l'arts martiaux mixtes. 🥋</p>
-        </a>
+            var nbCombattants = actifs.Count();
+            var totalVictoires = actifs.Sum(c => c.Ratio.Victoires); 
+            var totalCombats = actifs.Sum(c => c.Ratio.Victoires + c.Ratio.Defaites + c.Ratio.Nuls); 
+            var ratioMoyen = totalCombats > 0 ? actifs.Average(c => (double)c.Ratio.Victoires / totalCombats) : 0;
+            var meilleurCombattant = actifs.OrderByDescending(c => c.Ratio.Victoires).FirstOrDefault(); 
 
-        <a href="/Enfant/recherche" class="col-12 col-md-3 col-lg-3 col-xl-3 bordure opacitee textdeco mb-4 text-center text-md-start order-2 order-md-3">
-            <h1>POIDS LOURD</h1>
-            <img src="~/images/Aspinall.jpg" class="img-fluid" alt="Poids lourd">
-            <p>Les <span class="rouge">poids lourds</span> en UFC sont des combattants pesant entre 206 et 265 livres. Cette catégorie est synonyme de puissance brute, avec des athlètes capables de finir un combat en un seul coup de poing. Des légendes comme Randy Couture, Cain Velasquez et Stipe Miocic ont marqué l'histoire de cette division avec leurs compétences polyvalentes et leurs performances mémorables. Jon Jones, l'un des plus grands combattants de tous les temps, a également fait une transition réussie dans cette catégorie en 2023, remportant le titre des poids lourds. Sa force, son expérience et son incroyable palmarès en font une figure emblématique de cette division. En somme, la catégorie des poids lourds en UFC incarne la quintessence de la puissance et de l'adrénaline, attirant des fans du monde entier par ses confrontations intenses et imprévisibles. 💥</p>
-        </a>
+            <a href="/Enfant/recherche" class="col-12 col-md-3 col-lg-3 col-xl-3 bordure opacitee textdeco mb-4 text-center text-md-start">
+                <h1>@cat.Nom.ToUpper()</h1>
+                <img src="@Url.Content(cat.ImageCombattantLegende)" class="img-fluid" alt="@cat.Nom">
+                <p>
+                    Poids en livres : @cat.Poids <br />
+                    Combattants actifs : @nbCombattants <br />
+                    Total des victoires : @totalVictoires <br />
+                    Ratio moyen des victoires : @Math.Round(ratioMoyen * 100, 2)% <br />
+                    Meilleur combattant : @meilleurCombattant?.Nom (avec @meilleurCombattant?.Ratio.Victoires victoires)
+                </p>
+                <p>@Html.Raw(cat.Description)</p>
+            </a>
+        }
     </div>
 </div>
-

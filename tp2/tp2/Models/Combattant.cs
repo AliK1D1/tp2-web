@@ -11,6 +11,7 @@
         public string Description { get; set; }
         public int Reach { get; set; }
         
+        public bool EstActif { get; set; }
         public Categories PoidCategorie { get; set; }
         public ratiocombat Ratio { get; set; }
         public string Origine { get; set; }
