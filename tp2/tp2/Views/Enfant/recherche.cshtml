@@ -1,4 +1,4 @@
-﻿@model List<Combattant>
+﻿@model tp2.ViewModels.PageRechercheViewMode
 
 <h2 class="text-center my-4">Recherche de Combattants UFC</h2>
 
@@ -7,7 +7,7 @@
        
         <div class="col-12 col-md-8 bordure mb-4">
             <div class="row">
-                @foreach (var combattant in Model)
+                @foreach (var combattant in Model.Resultat)
                 {
                     <div class="col-12 col-md-4 mb-4">
                         <a href="/Enfant/detail/@combattant.Id" class="no-underline">
@@ -36,34 +36,80 @@
             <form method="GET" asp-controller="Recherche" asp-action="Index">
                 <div class="form-group textcolor">
                     <label for="search">Recherche</label>
-                    <input type="text" class="form-control" id="search" name="search" placeholder="Entrez un nom">
+                    <input type="text" class="form-control" value="@Model.Critere.MotCles" id="search" name="MotCles" placeholder="Entrez un nom">
                 </div>
                 <div class="form-group textcolor">
                     <label for="category">Champion ?</label>
-                    <select class="form-control" id="category" name="category">
-                        <option value="peuimporte">Peu importe</option>
-                        <option value="oui">Oui</option>
-                        <option value="non">Non</option>
+                    <select class="form-control" id="category" name="Champ">
+                        @if (Model.Critere.Champ == "oui")
+                        {
+                            <option selected value="oui">Oui</option>
+
+                        }
+                        else
+                        {
+                            <option value="Non">Non</option>
+                            <option value="pi">Peu importe</option>
+                        }
+                        @if (Model.Critere.Champ == "Non")
+                        {
+                            <option selected value="non">Non</option>
+
+                        }
+                        else
+                        {
+                            <option value="Oui">Oui</option>
+                            <option value="pi">Peu importe</option>
+                        
+                        }
                     </select>
                 </div>
                 <div class="form-group textcolor">
                     <label for="min">Min</label>
-                    <input type="number" min="1" max="15" class="form-control" id="min" name="min" placeholder="Min">
+                    <input type="number" min="1" max="15" value="@Model.Critere.min" class="form-control" id="min" name="min" placeholder="Min">
                 </div>
                 <div class="form-group textcolor">
                     <label for="max">Max</label>
-                    <input type="number" min="1" max="15" class="form-control" id="max" name="max" placeholder="Max">
+                    <input type="number" min="1" max="15" value="@Model.Critere.max" class="form-control" id="max" name="max" placeholder="Max">
                 </div>
                 <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="checkbox2" name="featherweight">
+                    @if (Model.Critere.PoidPlume == true)
+                    {
+                        <input type="checkbox" checked class="form-check-input" id="checkbox2" value="true" name="PoidPlume">
+
+                    }
+                    else
+                    {
+                        <input type="checkbox"  class="form-check-input" id="checkbox2" value="true" name="PoidPlume">
+                    
+                    }
+
                     <label class="form-check-label textcolor" for="checkbox2">Poids plume</label>
                 </div>
                 <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="checkbox3" name="middleweight">
+                    @if (Model.Critere.PoidMoyen == true)
+                    {
+                        <input type="checkbox" checked class="form-check-input" id="checkbox3" name="PoidMoyen">
+                    }
+                    else
+                    {
+                        <input type="checkbox" class="form-check-input" id="checkbox3" name="PoidMoyen">
+                    }
+                    
                     <label class="form-check-label textcolor" for="checkbox3">Poids Moyen</label>
                 </div>
                 <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="checkbox4" name="heavyweight">
+                    @if (Model.Critere.PoidLourd)
+                    {
+                        <input type="checkbox" checked class="form-check-input" id="checkbox4" name="PoidLourd">
+                    
+                    }
+                    else
+                    {
+                        <input type="checkbox" class="form-check-input" id="checkbox4" name="PoidLourd">
+                    
+                    }
+                    
                     <label class="form-check-label textcolor" for="checkbox4">Poids Lourds</label>
                 </div>
                 <div class="row">

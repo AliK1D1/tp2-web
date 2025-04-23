@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using tp2.Models;
+using tp2.ViewModels;
 
 namespace tp2.Controllers
 {
@@ -15,8 +16,21 @@ namespace tp2.Controllers
         [Route("Enfant/recherche")]
         public IActionResult recherche()
 		{
-			var combattants = _db.Combattants;
-			return View(combattants);
+            var model = new PageRechercheViewMode();
+            model.Critere = new CritereRechercheViewModel();
+            model.Critere.PoidLourd = true;
+            model.Critere.PoidMoyen = true;
+            model.Critere.PoidPlume = true;
+            model.Critere.Champ = "oui";
+            model.Critere.max = 4;
+            model.Critere.min = 1;
+            model.Critere.MotCles = "hello";
+            model.Resultat = _db.Combattants.ToList();
+
+			
+            
+          //  var combattants = _db.Combattants;
+			return View(model);
 		}
 
 
@@ -51,7 +65,7 @@ namespace tp2.Controllers
                 return View("NotFound");
             }
 
-            return View(combattant);
+            return View(combattant); //Kevin ne t'enleverea pas de point return view("detail, combattant")
 
         }
 	}
