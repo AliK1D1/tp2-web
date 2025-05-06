@@ -39,7 +39,7 @@ namespace tp2.Controllers
             IEnumerable<Combattant> donnees = _db.Combattants.AsQueryable();
 
             if (critere.PoidMoyen == true) {
-                donnees.Where(c => c.Poid == "Poids Moyen");
+               donnees = donnees.Where(c => c.Poid == "Poids Moyen");
 
             }
             if (critere.PoidLourd == true)
@@ -75,6 +75,7 @@ namespace tp2.Controllers
 
             var model = new PageRechercheViewModel();
             model.Resultat = donnees.ToList();
+            model.Critere = critere;
 
             return View("recherche",model);
         }
