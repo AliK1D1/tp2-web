@@ -1,39 +1,51 @@
-﻿@model tp2.ViewModels.PageRechercheViewMode
+﻿@model tp2.ViewModels.PageRechercheViewModel
 
 <h2 class="text-center my-4">Recherche de Combattants UFC</h2>
 
 <div class="container">
     <div class="row justify-content-between">
-       
+
         <div class="col-12 col-md-8 bordure mb-4">
             <div class="row">
-                @foreach (var combattant in Model.Resultat)
+                @if (Model.Resultat.Count == 0)
                 {
-                    <div class="col-12 col-md-4 mb-4">
-                        <a href="/Enfant/detail/@combattant.Id" class="no-underline">
-                            <img src="@Url.Content(combattant.ImageUrl)" class="img-fluid bordure opacitee" alt="@combattant.Nom">
-                            <p>
-                                @{
-                                    var nomSplit = combattant.Nom.Split(' ');
-                                    if (nomSplit.Length > 1)
-                                    {
-                                        <text>@nomSplit[0]<br>@nomSplit[1]</text>
-                                    }
-                                    else
-                                    {
-                                        <text>@combattant.Nom</text>
-                                    }
-                                }
-                            </p>
-                        </a>
-                    </div>
+                    <p>nah wrong little bro</p>
+
                 }
+                else
+                {
+                    @foreach (var combattant in Model.Resultat)
+                    {
+                        <div class="col-12 col-md-4 mb-4">
+                            
+                            <a asp-controller="Enfant" asp-action="detail" asp-route-value="@combattant.Id" class="no-underline">
+                                <img src="@Url.Content(combattant.ImageUrl)" class="img-fluid bordure opacitee" alt="@combattant.Nom">
+                                <p>
+                                    @{
+                                        var nomSplit = combattant.Nom.Split(' ');
+                                        if (nomSplit.Length > 1)
+                                        {
+                                            <text>@nomSplit[0]<br>@nomSplit[1]</text>
+                                        }
+                                        else
+                                        {
+                                            <text>@combattant.Nom</text>
+                                        }
+                                    }
+                                </p>
+                            </a>
+                        </div>
+                    }
+                    
+                
+                }
+                
             </div>
         </div>
 
         
         <div class="col-12 col-md-3 bordure boitecote opacitee mb-4">
-            <form method="GET" asp-controller="Recherche" asp-action="Index">
+            <form method="get" asp-controller="Enfant" asp-action="Filtrer">
                 <div class="form-group textcolor">
                     <label for="search">Recherche</label>
                     <input type="text" class="form-control" value="@Model.Critere.MotCles" id="search" name="MotCles" placeholder="Entrez un nom">
@@ -41,75 +53,29 @@
                 <div class="form-group textcolor">
                     <label for="category">Champion ?</label>
                     <select class="form-control" id="category" name="Champ">
-                        @if (Model.Critere.Champ == "oui")
-                        {
-                            <option selected value="oui">Oui</option>
-
-                        }
-                        else
-                        {
-                            <option value="Non">Non</option>
-                            <option value="pi">Peu importe</option>
-                        }
-                        @if (Model.Critere.Champ == "Non")
-                        {
-                            <option selected value="non">Non</option>
-
-                        }
-                        else
-                        {
-                            <option value="Oui">Oui</option>
-                            <option value="pi">Peu importe</option>
-                        
-                        }
+                        <option value="oui">Oui</option>
+                        <option value="non">Non</option>
+                        <option value="pi">Peu importe</option>
                     </select>
                 </div>
                 <div class="form-group textcolor">
                     <label for="min">Min</label>
-                    <input type="number" min="1" max="15" value="@Model.Critere.min" class="form-control" id="min" name="min" placeholder="Min">
+                    <input type="number" min="18" max="100" value="@Model.Critere.min" class="form-control" id="min" name="min" placeholder="Min">
                 </div>
                 <div class="form-group textcolor">
                     <label for="max">Max</label>
-                    <input type="number" min="1" max="15" value="@Model.Critere.max" class="form-control" id="max" name="max" placeholder="Max">
+                    <input type="number" min="18" max="100" value="@Model.Critere.max" class="form-control" id="max" name="max" placeholder="Max">
                 </div>
                 <div class="form-check">
-                    @if (Model.Critere.PoidPlume == true)
-                    {
-                        <input type="checkbox" checked class="form-check-input" id="checkbox2" value="true" name="PoidPlume">
-
-                    }
-                    else
-                    {
-                        <input type="checkbox"  class="form-check-input" id="checkbox2" value="true" name="PoidPlume">
-                    
-                    }
-
+                    <input type="checkbox" class="form-check-input" id="checkbox2" name="PoidPlume" value="true" @(Model.Critere.PoidPlume ? "checked" : "")>
                     <label class="form-check-label textcolor" for="checkbox2">Poids plume</label>
                 </div>
                 <div class="form-check">
-                    @if (Model.Critere.PoidMoyen == true)
-                    {
-                        <input type="checkbox" checked class="form-check-input" id="checkbox3" name="PoidMoyen">
-                    }
-                    else
-                    {
-                        <input type="checkbox" class="form-check-input" id="checkbox3" name="PoidMoyen">
-                    }
-                    
+                    <input type="checkbox" class="form-check-input" id="checkbox3" name="PoidMoyen" value="true" @(Model.Critere.PoidMoyen ? "checked" : "")>
                     <label class="form-check-label textcolor" for="checkbox3">Poids Moyen</label>
                 </div>
                 <div class="form-check">
-                    @if (Model.Critere.PoidLourd)
-                    {
-                        <input type="checkbox" checked class="form-check-input" id="checkbox4" name="PoidLourd">
-                    
-                    }
-                    else
-                    {
-                        <input type="checkbox" class="form-check-input" id="checkbox4" name="PoidLourd">
-                    
-                    }
-                    
+                    <input type="checkbox" class="form-check-input" id="checkbox4" name="PoidLourd" value="true" @(Model.Critere.PoidLourd ? "checked" : "")>
                     <label class="form-check-label textcolor" for="checkbox4">Poids Lourds</label>
                 </div>
                 <div class="row">

@@ -6,17 +6,19 @@
     <div class="row espace justify-content-between fondombre nohover">
         @foreach (var cat in Model)
         {
-           
             var combattants = cat.Combattants ?? new List<tp2.Models.Combattant>();
             var actifs = combattants.Where(c => c.EstActif).ToList();
 
             var nbCombattants = actifs.Count();
-            var totalVictoires = actifs.Sum(c => c.Ratio.Victoires); 
-            var totalCombats = actifs.Sum(c => c.Ratio.Victoires + c.Ratio.Defaites + c.Ratio.Nuls); 
+            var totalVictoires = actifs.Sum(c => c.Ratio.Victoires);
+            var totalCombats = actifs.Sum(c => c.Ratio.Victoires + c.Ratio.Defaites + c.Ratio.Nuls);
             var ratioMoyen = totalCombats > 0 ? actifs.Average(c => (double)c.Ratio.Victoires / totalCombats) : 0;
-            var meilleurCombattant = actifs.OrderByDescending(c => c.Ratio.Victoires).FirstOrDefault(); 
+            var meilleurCombattant = actifs.OrderByDescending(c => c.Ratio.Victoires).FirstOrDefault();
 
-            <a href="/Enfant/recherche" class="col-12 col-md-3 col-lg-3 col-xl-3 bordure opacitee textdeco mb-4 text-center text-md-start">
+            <a asp-controller="Enfant"
+               asp-action="recherche"
+               asp-route-Critere="@cat.Nom"
+               class="col-12 col-md-3 col-lg-3 col-xl-3 bordure opacitee textdeco mb-4 text-center text-md-start">
                 <h1>@cat.Nom.ToUpper()</h1>
                 <img src="@Url.Content(cat.ImageCombattantLegende)" class="img-fluid" alt="@cat.Nom">
                 <p>

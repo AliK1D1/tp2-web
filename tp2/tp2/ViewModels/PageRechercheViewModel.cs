@@ -2,7 +2,7 @@
 
 namespace tp2.ViewModels
 {
-    public class PageRechercheViewMode
+    public class PageRechercheViewModel
     {
         public CritereRechercheViewModel Critere;
         public List<Combattant> Resultat;

@@ -16,15 +16,15 @@ namespace tp2.Controllers
         [Route("Enfant/recherche")]
         public IActionResult recherche()
 		{
-            var model = new PageRechercheViewMode();
+            var model = new PageRechercheViewModel();
             model.Critere = new CritereRechercheViewModel();
             model.Critere.PoidLourd = true;
             model.Critere.PoidMoyen = true;
             model.Critere.PoidPlume = true;
             model.Critere.Champ = "oui";
-            model.Critere.max = 4;
-            model.Critere.min = 1;
-            model.Critere.MotCles = "hello";
+            model.Critere.max = 100;
+            model.Critere.min = 18;
+            model.Critere.MotCles = "alex";
             model.Resultat = _db.Combattants.ToList();
 
 			
@@ -33,12 +33,58 @@ namespace tp2.Controllers
 			return View(model);
 		}
 
+        [Route("Enfant/Filtrer")]
+        public IActionResult Filtrer(CritereRechercheViewModel critere) {
+          
+            IEnumerable<Combattant> donnees = _db.Combattants.AsQueryable();
+
+            if (critere.PoidMoyen == true) {
+                donnees.Where(c => c.Poid == "Poids Moyen");
+
+            }
+            if (critere.PoidLourd == true)
+            {
+                donnees = donnees.Where(c => c.Poid == "Poids Lourd");
+            }
+            if (critere.PoidPlume == true)
+            {
+                donnees = donnees.Where(c => c.Poid == "Poids Plume");
+            }
+            if (critere.Champ == "oui")
+            {
+                donnees = donnees.Where(c => c.EstChampion == true);
+            }
+            else if (critere.Champ == "non")
+            {
+                donnees = donnees.Where(c => c.EstChampion == false);
+            }
+            else if (critere.Champ == "peut importe")
+            {
+               // donnees = donnees.Where(c => c.Age.ToString().Contains(critere.MotCles.ToString())).ToList();
+            }
+
+            if (critere.MotCles != null)
+            {
+                donnees = donnees.Where(c => c.Nom.ToLower().Contains(critere.MotCles.ToLower()));
+            }
+
+            if (critere.min != 0 && critere.max !=0)
+            {
+                donnees = donnees.Where(c => c.Age >= critere.min && c.Age <= critere.max);
+            }
+
+            var model = new PageRechercheViewModel();
+            model.Resultat = donnees.ToList();
+
+            return View("recherche",model);
+        }
 
 
 
 
 
-		[Route("Enfant/detail/{value}")]
+
+        [Route("Enfant/detail/{value}")]
 		[Route("Enfant/{value}")]
 		[Route("/{value}")]
 		public IActionResult detail(string value)
