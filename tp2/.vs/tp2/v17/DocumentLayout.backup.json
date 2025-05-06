@@ -155,9 +155,9 @@
               "Title": "EnfantController.cs",
               "DocumentMoniker": "C:\\tp2-web\\tp2\\tp2\\Controllers\\EnfantController.cs",
               "RelativeDocumentMoniker": "tp2\\Controllers\\EnfantController.cs",
-              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Controllers\\EnfantController.cs",
-              "RelativeToolTip": "tp2\\Controllers\\EnfantController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAArwCkAAAAPAAAAAAAAAA==",
+              "ToolTip": "C:\\tp2-web\\tp2\\tp2\\Controllers\\EnfantController.cs*",
+              "RelativeToolTip": "tp2\\Controllers\\EnfantController.cs*",
+              "ViewState": "AgIAABgAAAAAAAAAAAArwCsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-06T15:55:00.177Z",
               "EditorCaption": ""
@@ -172,8 +172,7 @@
               "RelativeToolTip": "tp2\\Views\\Enfant\\recherche.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-03T18:54:27.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T18:54:27.176Z"
             },
             {
               "$type": "Document",
@@ -185,8 +184,7 @@
               "RelativeToolTip": "tp2\\Controllers\\FavorisController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:55:11.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:55:11.275Z"
             },
             {
               "$type": "Document",
@@ -198,8 +196,7 @@
               "RelativeToolTip": "tp2\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAA8wBIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T17:34:49.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T17:34:49.348Z"
             },
             {
               "$type": "Document",

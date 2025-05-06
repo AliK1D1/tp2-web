@@ -38,17 +38,13 @@ namespace tp2.Controllers
           
             IEnumerable<Combattant> donnees = _db.Combattants.AsQueryable();
 
-            if (critere.PoidMoyen == true) {
-               donnees = donnees.Where(c => c.Poid == "Poids Moyen");
-
-            }
-            if (critere.PoidLourd == true)
+            if (critere.PoidPlume || critere.PoidMoyen || critere.PoidLourd)
             {
-                donnees = donnees.Where(c => c.Poid == "Poids Lourd");
-            }
-            if (critere.PoidPlume == true)
-            {
-                donnees = donnees.Where(c => c.Poid == "Poids Plume");
+                donnees = donnees.Where(c =>
+                    (critere.PoidPlume && c.Poid == "Poids Plume") ||
+                    (critere.PoidMoyen && c.Poid == "Poids Moyen") ||
+                    (critere.PoidLourd && c.Poid == "Poids Lourd")
+                );
             }
             if (critere.Champ == "oui")
             {
