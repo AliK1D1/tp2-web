@@ -7,11 +7,16 @@
 
         <div class="col-12 col-md-8 bordure mb-4">
             <div class="row">
-
+                @if (Model.Resultat == null || Model.Resultat.Count == 0)
+                {
+                    <p>big tu cherche qui ?</p>
+                }
+                else
+                {
                     @foreach (var combattant in Model.Resultat)
                     {
                         <div class="col-12 col-md-4 mb-4">
-                            
+
                             <a asp-controller="Enfant" asp-action="detail" asp-route-value="@combattant.Id" class="no-underline">
                                 <img src="@Url.Content(combattant.ImageUrl)" class="img-fluid bordure opacitee" alt="@combattant.Nom">
                                 <p>
@@ -30,6 +35,8 @@
                             </a>
                         </div>
                     }
+                }
+               
                    
             </div>
         </div>
