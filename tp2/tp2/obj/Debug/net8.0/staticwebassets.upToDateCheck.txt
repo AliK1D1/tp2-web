@@ -1,4 +1,5 @@
 wwwroot\css\Style.css
+wwwroot\Images\20240923_FIFOU_SCH_0080_106.webp
 wwwroot\Images\396d97a75361217b512c8955ee81c8e8.gif
 wwwroot\Images\AcceuilJonJones.jpg
 wwwroot\Images\aldo.jpg

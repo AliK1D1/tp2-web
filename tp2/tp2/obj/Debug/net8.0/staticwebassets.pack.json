@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\20240923_FIFOU_SCH_0080_106.webp",
+      "PackagePath": "staticwebassets\\Images\\20240923_FIFOU_SCH_0080_106.webp"
+    },
+    {
       "Id": "C:\\tp2-web\\tp2\\tp2\\wwwroot\\Images\\396d97a75361217b512c8955ee81c8e8.gif",
       "PackagePath": "staticwebassets\\Images\\396d97a75361217b512c8955ee81c8e8.gif"
     },
