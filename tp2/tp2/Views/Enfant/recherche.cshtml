@@ -15,7 +15,12 @@
                 {
                     @foreach (var combattant in Model.Resultat)
                     {
-                        <div class="col-12 col-md-4 mb-4">
+                        <div class="col-12 col-md-4 mb-4 position-relative">
+                            
+                            <a asp-controller="GestionEnfant" asp-action="Delete" asp-route-id="@combattant.Id"
+                               class="btn btn-danger position-absolute top-0 end-0 m-2" title="Supprimer">
+                                <i class="fas fa-trash"></i>
+                            </a>
 
                             <a asp-controller="Enfant" asp-action="detail" asp-route-value="@combattant.Id" class="no-underline">
                                 <img src="@Url.Content(combattant.ImageUrl)" class="img-fluid bordure opacitee" alt="@combattant.Nom">
